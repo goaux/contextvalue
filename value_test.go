@@ -114,7 +114,7 @@ func Test(t *testing.T) {
 
 			ctx = contextvalue.Without[int](ctx)
 			got, ok = contextvalue.From[int](ctx)
-			assertFalse(t, ok, "becuase the value is hidden by Without")
+			assertFalse(t, ok, "because the value is hidden by Without")
 			assertZero(t, got, "because ok is false")
 		})
 	})
@@ -150,7 +150,7 @@ func Test(t *testing.T) {
 			ctx = contextvalue.WithoutName[int](ctx, Red)
 
 			red, ok = contextvalue.FromName[int](ctx, Red)
-			assertFalse(t, ok, "becuase the value for Red is hidden by WithoutName")
+			assertFalse(t, ok, "because the value for Red is hidden by WithoutName")
 			assertZero(t, red, "because ok is false")
 
 			blue, ok = contextvalue.FromName[int](ctx, Blue)
