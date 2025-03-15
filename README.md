@@ -1,5 +1,8 @@
 # contextvalue
 
+[![Go Reference](https://pkg.go.dev/badge/github.com/goaux/contextvalue.svg)](https://pkg.go.dev/github.com/goaux/contextvalue)
+[![Go Report Card](https://goreportcard.com/badge/github.com/goaux/contextvalue)](https://goreportcard.com/report/github.com/goaux/contextvalue)
+
 `contextvalue` is a Go package that provides type-safe context values using Go generics.
 It allows you to store and retrieve strongly typed values in a `context.Context` without using custom key types.
 
